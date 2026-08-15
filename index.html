@@ -1,1 +1,410 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Happy Birthday Jai ❤️</title><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:linear-gradient(135deg,#fff0f6,#ffe4ec,#fff7fb);color:#5b2440;overflow-x:hidden}.wrap{max-width:900px;margin:auto;padding:28px 18px 60px}.hero{text-align:center;padding:55px 15px 30px}.eyebrow{letter-spacing:4px;text-transform:uppercase;font-size:13px;color:#c15b82;font-weight:700}.hero h1{font-size:clamp(44px,10vw,82px);margin:10px 0;color:#9b315d;line-height:1}.hero p{font-size:20px}.card{background:rgba(255,255,255,.82);border:1px solid #ffd1df;border-radius:30px;padding:28px;margin:22px 0;box-shadow:0 18px 45px rgba(155,49,93,.12);backdrop-filter:blur(8px)}.photo{display:block;width:min(100%,620px);max-height:650px;object-fit:cover;margin:0 auto;border-radius:24px;box-shadow:0 15px 35px rgba(80,20,45,.2)}h2{text-align:center;font-size:clamp(28px,6vw,48px);margin:10px 0 15px;color:#8f2855}.handsome{text-align:center;font-size:25px;font-weight:800;color:#b22f65}.message{font-size:19px;line-height:1.8;text-align:center}.reasons{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-top:20px}.reason{padding:20px;border-radius:20px;background:#fff3f7;text-align:center;font-size:17px}.heart{font-size:34px;text-align:center;animation:pulse 1.4s infinite}.footer{text-align:center;padding:35px 0 10px;font-weight:700;color:#a53d68}.float{position:fixed;bottom:-30px;animation:up 7s linear infinite;opacity:.65;pointer-events:none}.f1{left:10%;animation-delay:0s}.f2{left:45%;animation-delay:2s}.f3{left:80%;animation-delay:4s}@keyframes up{to{transform:translateY(-110vh) rotate(20deg);opacity:0}}@keyframes pulse{50%{transform:scale(1.15)}}</style></head><body><div class="float f1">❤️</div><div class="float f2">💕</div><div class="float f3">💗</div><main class="wrap"><section class="hero"><div class="eyebrow">A little birthday surprise from Bubu</div><h1>Happy Birthday, Jai 🎂</h1><p>To my favourite person, my favourite smile, and my <b>very handsome</b> boy. ❤️</p></section><section class="card"><img class="photo" src="Jai.jpeg" alt="Jai"><h2>My very, very handsome Jai 😍</h2><p class="handsome">Okay, but seriously... LOOK AT YOU. 🫠❤️</p></section><section class="card"><div class="heart">💗</div><p class="message">Happy Birthday, Jai! I hope this year brings you everything your heart wishes for. You deserve all the happiness, love, success and beautiful moments in the world. Thank you for being you — and for being ridiculously handsome while doing it. 😌</p><p class="message"><b>With lots and lots of love,<br>Bubu ❤️</b></p></section><section class="card"><h2>Why you're so special 💕</h2><div class="reasons"><div class="reason">😍 You're VERY handsome</div><div class="reason">😊 Your smile is everything</div><div class="reason">❤️ You make ordinary moments special</div><div class="reason">✨ You are simply YOU</div></div></section><section class="hero"><h2>Happy Birthday, Handsome! 🎉</h2><p>May your day be as amazing as you are. ❤️</p><div class="heart">❤️</div></section><div class="footer">Made with love by Bubu for Jai 💌</div></main></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Happy Birthday Jai ❤️</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+  background: linear-gradient(135deg, #fff0f6, #ffe4ec, #fff7fb);
+  color: #5b2440;
+  overflow-x: hidden;
+}
+
+.wrap {
+  max-width: 900px;
+  margin: auto;
+  padding: 28px 18px 60px;
+}
+
+.hero {
+  text-align: center;
+  padding: 70px 15px 50px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eyebrow {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #c15b82;
+  font-weight: 700;
+}
+
+.hero h1 {
+  font-size: clamp(44px, 10vw, 82px);
+  margin: 10px 0;
+  color: #9b315d;
+  line-height: 1;
+}
+
+.hero p {
+  font-size: 20px;
+  max-width: 650px;
+  line-height: 1.6;
+}
+
+/* BUTTONS */
+
+.next-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 50px;
+  background: #9b315d;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 25px rgba(155, 49, 93, 0.25);
+  transition: all 0.3s ease;
+}
+
+.next-btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 12px 30px rgba(155, 49, 93, 0.35);
+  background: #b22f65;
+}
+
+.next-btn:active {
+  transform: scale(0.97);
+}
+
+/* CARDS */
+
+.card {
+  background: rgba(255,255,255,.82);
+  border: 1px solid #ffd1df;
+  border-radius: 30px;
+  padding: 35px 28px;
+  margin: 22px 0;
+  box-shadow: 0 18px 45px rgba(155,49,93,.12);
+  backdrop-filter: blur(8px);
+}
+
+.photo {
+  display: block;
+  width: min(100%, 620px);
+  max-height: 650px;
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 24px;
+  box-shadow: 0 15px 35px rgba(80,20,45,.2);
+}
+
+h2 {
+  text-align: center;
+  font-size: clamp(28px,6vw,48px);
+  margin: 25px 0 15px;
+  color: #8f2855;
+}
+
+.handsome {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  color: #b22f65;
+}
+
+.message {
+  font-size: 19px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.reasons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.reason {
+  padding: 20px;
+  border-radius: 20px;
+  background: #fff3f7;
+  text-align: center;
+  font-size: 17px;
+}
+
+.heart {
+  font-size: 34px;
+  text-align: center;
+  animation: pulse 1.4s infinite;
+}
+
+.footer {
+  text-align: center;
+  padding: 35px 0 10px;
+  font-weight: 700;
+  color: #a53d68;
+}
+
+.float {
+  position: fixed;
+  bottom: -30px;
+  animation: up 7s linear infinite;
+  opacity: .65;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.f1 {
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.f2 {
+  left: 45%;
+  animation-delay: 2s;
+}
+
+.f3 {
+  left: 80%;
+  animation-delay: 4s;
+}
+
+@keyframes up {
+  to {
+    transform: translateY(-110vh) rotate(20deg);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+/* Make sure sections appear above floating hearts */
+
+section,
+.footer {
+  position: relative;
+  z-index: 1;
+}
+
+@media(max-width:600px) {
+
+  .hero {
+    min-height: 85vh;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .handsome {
+    font-size: 21px;
+  }
+
+  .message {
+    font-size: 17px;
+  }
+
+  .next-btn {
+    padding: 13px 25px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- FLOATING HEARTS -->
+
+<div class="float f1">❤️</div>
+<div class="float f2">💕</div>
+<div class="float f3">💗</div>
+
+
+<main class="wrap">
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="start">
+
+  <div class="eyebrow">
+    A little birthday surprise from Bubu
+  </div>
+
+  <h1>
+    Happy Birthday, Jai 🎂
+  </h1>
+
+  <p>
+    To my favourite person, my favourite smile,
+    and my <b>very handsome</b> boy. ❤️
+  </p>
+
+  <a href="#photo" class="next-btn">
+    Open Your Surprise 💌
+  </a>
+
+</section>
+
+
+
+<!-- ================= PHOTO ================= -->
+
+<section class="card" id="photo">
+
+  <img
+    class="photo"
+    src="Jai.jpeg"
+    alt="Jai"
+  >
+
+  <h2>
+    My very, very handsome Jai 😍
+  </h2>
+
+  <p class="handsome">
+    Okay, but seriously... LOOK AT YOU. 🫠❤️
+  </p>
+
+  <div style="text-align:center;">
+    <a href="#message" class="next-btn">
+      Continue → 💕
+    </a>
+  </div>
+
+</section>
+
+
+
+<!-- ================= MESSAGE ================= -->
+
+<section class="card" id="message">
+
+  <div class="heart">
+    💗
+  </div>
+
+  <p class="message">
+    Happy Birthday, Jai!
+    I hope this year brings you everything
+    your heart wishes for.
+  </p>
+
+  <p class="message">
+    You deserve all the happiness, love,
+    success and beautiful moments in the world.
+  </p>
+
+  <p class="message">
+    Thank you for being you —
+    and for being ridiculously handsome
+    while doing it. 😌
+  </p>
+
+  <p class="message">
+    <b>
+      With lots and lots of love,<br>
+      Bubu ❤️
+    </b>
+  </p>
+
+  <div style="text-align:center;">
+    <a href="#special" class="next-btn">
+      Keep Going → 💌
+    </a>
+  </div>
+
+</section>
+
+
+
+<!-- ================= SPECIAL ================= -->
+
+<section class="card" id="special">
+
+  <h2>
+    Why you're so special 💕
+  </h2>
+
+  <div class="reasons">
+
+    <div class="reason">
+      😍<br>
+      <b>You're VERY handsome</b>
+    </div>
+
+    <div class="reason">
+      😊<br>
+      <b>Your smile is everything</b>
+    </div>
+
+    <div class="reason">
+      ❤️<br>
+      <b>You make ordinary moments special</b>
+    </div>
+
+    <div class="reason">
+      ✨<br>
+      <b>You are simply YOU</b>
+    </div>
+
+  </div>
+
+  <div style="text-align:center;">
+    <a href="#final" class="next-btn">
+      One More Thing → ❤️
+    </a>
+  </div>
+
+</section>
+
+
+
+<!-- ================= FINAL ================= -->
+
+<section class="hero" id="final">
+
+  <h2>
+    Happy Birthday, Handsome! 🎉
+  </h2>
+
+  <p>
+    May your day be as amazing as you are. ❤️
+  </p>
+
+  <div class="heart">
+    ❤️
+  </div>
+
+  <a href="#start" class="next-btn">
+    Read It Again ↺ 💕
+  </a>
+
+</section>
+
+
+<div class="footer">
+  Made with love by Bubu for Jai 💌
+</div>
+
+
+</main>
+
+</body>
+</html>
